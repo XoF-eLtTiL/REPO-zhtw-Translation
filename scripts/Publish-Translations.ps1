@@ -1,5 +1,6 @@
 param(
     [string]$Message = "Update translations $(Get-Date -Format 'yyyy-MM-dd HH:mm')",
+    [string]$Repository = 'https://github.com/XoF-eLtTiL/REPO-zhtw-Translation.git',
     [switch]$NoPush
 )
 
@@ -8,6 +9,7 @@ $repoRoot = Split-Path -Parent $PSScriptRoot
 $allowedExact = @(
     '.gitignore',
     'README.md',
+    'TRANSLATION_UPDATE_GUIDE.md',
     'manifest.txt',
     'scripts/Update-Manifest.ps1',
     'scripts/Publish-Translations.ps1'
@@ -34,13 +36,27 @@ if (-not (Get-Command git -ErrorAction SilentlyContinue)) {
     throw 'Git is not installed or is not available in PATH.'
 }
 
+$origin = (& git remote get-url origin 2>$null)
+if ($LASTEXITCODE -ne 0) {
+    & git remote add origin $Repository
+    if ($LASTEXITCODE -ne 0) { throw 'Unable to add the GitHub origin remote.' }
+    Write-Host "Added GitHub remote: $Repository"
+} elseif ($origin.TrimEnd('/') -ne $Repository.TrimEnd('/')) {
+    throw "The origin remote points somewhere else: $origin"
+}
+
+$branch = (& git branch --show-current).Trim()
+if ($LASTEXITCODE -ne 0 -or $branch -ne 'main') {
+    throw "Publish from the main branch only. Current branch: $branch"
+}
+
 & (Join-Path $PSScriptRoot 'Update-Manifest.ps1') -RepoRoot $repoRoot
 
 $tracked = @(& git ls-files)
 if ($LASTEXITCODE -ne 0) { throw 'Unable to read tracked Git files.' }
 foreach ($path in $tracked) { Assert-AllowedPath -Path $path }
 
-& git add -- '.gitignore' 'README.md' 'manifest.txt' 'scripts/Update-Manifest.ps1' 'scripts/Publish-Translations.ps1' 'translations'
+& git add -- '.gitignore' 'README.md' 'TRANSLATION_UPDATE_GUIDE.md' 'manifest.txt' 'scripts/Update-Manifest.ps1' 'scripts/Publish-Translations.ps1' 'translations'
 if ($LASTEXITCODE -ne 0) { throw 'git add failed.' }
 
 $staged = @(& git diff --cached --name-only --diff-filter=ACMR)
@@ -68,4 +84,3 @@ if ($NoPush) {
 & git push origin main
 if ($LASTEXITCODE -ne 0) { throw 'git push failed.' }
 Write-Host 'Translation update published successfully.'
-

@@ -1,10 +1,10 @@
 *
 !.gitignore
 !README.md
+!TRANSLATION_UPDATE_GUIDE.md
 !manifest.txt
 !translations/
 !translations/**
 !scripts/
 !scripts/Update-Manifest.ps1
 !scripts/Publish-Translations.ps1
-
