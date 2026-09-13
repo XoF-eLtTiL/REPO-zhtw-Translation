@@ -1,0 +1,123 @@
+# 地點
+MUSEUM OF HUMAN ART=人類藝術博物館
+DISPOSAL ARENA=垃圾場
+Disposal Arena=垃圾場
+HEADMAN MANOR=海德曼莊園
+Headman Manor=海德曼莊園
+KING OF THE LOSERS!=輸家之王！
+Lobby Menu=大廳選單
+LOCKED=已鎖定
+MCJANNEK STATION=麥詹內克研究所
+McJannek Station=麥詹內克研究所
+Recording=錄製中
+SERVICE STATION=休息站
+Service Station=休息站
+SHOP=商店
+SWIFTBROOM ACADEMY=迅帚學院
+Swiftbroom Academy=迅帚學院
+Truck=貨車
+
+
+# 生物
+Animal=怪異生物
+Apex Predator=頂級掠食者
+Banger=爆破骷髏
+Chef=廚師
+Bowtie=怒吼怪
+Clown=狂笑小丑
+Gnome=小矮人
+Headman=海德曼
+Hidden=隱形人
+Huntsman=獵人
+Reaper=死神
+Robe=長袍怪人
+Shadow Child=暗影之子
+Mentalist=超能科學家
+Trudge=沉行者
+Spewer=嘔吐怪
+Rugrat=搗蛋鬼
+Upscream=尖叫者
+Peeper=凝視者
+
+
+
+They dissed me in the dark...=他們不滿我還在黑暗中...
+should=應該
+They=他們
+dissed=不滿
+me=我
+in=還在
+the=黑暗
+dark.=中
+
+I need to get to the truck in...=我需要在倒數前回到車上...
+I=我
+need=需要在
+get=倒數
+to=前回
+the=到
+truck=車
+in...=上...
+
+SELF DESTRUCT SEQUENCE CANCELLED!=自我摧毀程序取消！
+SELF=自我
+DESTRUCT=摧毀
+SEQUENCE=程序
+CANCELLED!=取消！
+
+Muted!=靜音！
+Unmuted!=解除靜音！
+
+The squad dissed lil me behind=小隊成員們不滿我脫隊在後
+The=小隊
+squad=成員們
+lil=我
+me=脫隊
+behind=在後
+
+I'm sorry=我很抱歉
+sorry=我很
+I'm=抱歉
+
+Those i trusted deserted lil old me...=我信任的人卻拋棄了老舊的我...
+Those=我信任
+i=的人
+trusted=卻拋棄了
+deserted=拋棄了
+lil=老舊
+old=的
+me.=我
+Spammer=洗版者
+I failed=我失敗了
+failed=失敗了
+
+This potion has me intensely crush.=這種藥水讓我非常迷戀。
+This=這種
+potion=藥水
+has=讓我
+me=感到
+intensely=非常
+crush.=迷戀
+
+This=這
+can't=不
+be=可能
+happening.=發生。
+All=他們
+of=所有
+them=人
+Why=為什麼
+forgot=忘了
+didn't=沒有
+they=他們
+have=有沒有
+wait?=等待？
+without=沒有
+back.=後面。
+looking=看
+my=我的
+feelings...=感受...
+thought=我以為
+we=我們
+were=是
+friends=朋友

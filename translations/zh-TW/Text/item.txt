@@ -1,0 +1,47 @@
+# 物品與升級
+
+Alchemy P.O.T.=煉金 P.O.T
+Baseball Bat=棒球棍
+C.A.R.T.=C.A.R.T.
+Duct Tape Grenades=膠帶炸彈
+Duct Taped Grenades=膠帶炸彈
+Energy Crystal=能量水晶
+Explosive Mine=爆炸地雷
+Extra Jump Upgrade=跳躍升級
+Extraction Tracker=提取追蹤器
+Feather Drone=減重無人機
+Frying Pan=煎鍋
+Grenade=手榴彈
+Gun=手槍
+Health Upgrade=生命升級
+Human Grenade=普通手榴彈
+Indestructible Drone=防護無人機
+Inflatable Hammer=充氣錘
+Large Health Pack (100)=大醫療包 (100)
+Map Player Count Upgrade=地圖玩家計數升級
+Medium Health Pack (50)=中醫療包 (50)
+POCKET C.A.R.T.=攜帶式 C.A.R.T.
+Range Upgrade=範圍升級
+Recharge Drone=充能無人機
+Roll Drone=翻滾無人機
+Rubber Duck=橡膠鴨
+STRONG=強
+Shockwave Grenade=衝擊手榴彈
+Shockwave Mine=衝擊地雷
+Shotgun=散彈槍
+Sledge Hammer=重錘
+Small Health Pack (25)=小醫療包 (25)
+Sprint Speed Upgrade=衝刺升級
+Stamina Upgrade=體力升級
+Strength Upgrade=力量升級
+Stun Grenade=眩暈手榴彈
+Stun Mine=眩暈地雷
+Sword=能量劍
+Tranq Gun=鎮定槍
+Tumble Launch Upgrade=翻滾升級
+Valuable Tracker=物品追蹤器
+WEAK=弱
+Zero Gravity Drone=零重力無人機
+Zero Gravity Orb=零重力能量球
+sr:"(.+) <color\=#FFFFFF>[<u><b>E</b></u>]</color>"=$1 <color\=#FFFFFF>[<u><b>E</b></u>]</color>
+sr:"Mode: (.+)"=模式：$1

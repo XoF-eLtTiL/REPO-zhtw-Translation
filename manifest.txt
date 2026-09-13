@@ -1,0 +1,7 @@
+# relative/path|sha256|size
+zh-TW/Text/game.txt|17bf0177d7c53cd927c897053e46ea9c3520287d1927cbe11b1525fdcebc3fbe|2277
+zh-TW/Text/item.txt|29078e346dcdaee82232ba63e9d2c784913717dedb755eb29b7ce426392ec5a4|1410
+zh-TW/Text/Menu.txt|c8f548c3e28a56b261a9a35bab444365f206a6a20baafc60b9cf176c022ab0ee|11998
+zh-TW/Text/mods.txt|663300f80f72cb0caaf8b94c6e7bf6a53bd0855e5575e75a4e890bff60230479|10595
+zh-TW/Text/UI.txt|4ba35c8e1f653f8ceae496cdb133f77cde3c3a750d92c0de71a452270553f9f4|12290
+zh-TW/Texture/repo_logo_shadow_alpha [5BA6D34911-4DB60B4F48].png|fb3c556db070faf6b2bc073666fe1ad84843bfb3e6719ad84a7fe2dab1080a01|69747

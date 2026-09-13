@@ -1,0 +1,10 @@
+*
+!.gitignore
+!README.md
+!manifest.txt
+!translations/
+!translations/**
+!scripts/
+!scripts/Update-Manifest.ps1
+!scripts/Publish-Translations.ps1
+
